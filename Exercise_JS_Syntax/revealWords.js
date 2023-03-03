@@ -9,7 +9,7 @@ function solve(word, text){
         
             onlyWordArr[indexInArr] = onlyWord[index];
             index += 1;
-            if (index === onlyWord.length){
+            if (index >= onlyWord.length){
                 break
             }
             
@@ -22,7 +22,7 @@ function solve(word, text){
     console.log(onlyWordArr.join(' '))
 }
 
-solve('great',
+solve('great, tol, kol',
 'softuni is ***** place for learning new programming languages')
 
 solve ('great, learning',
