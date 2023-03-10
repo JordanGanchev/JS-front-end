@@ -4,11 +4,7 @@ function signCheck(...numbers) {
   .length % 2 === 0 ? 'Positive' : 'Negative'
 };
 
-console.log(signCheck(
-    5,
-    12,
-   -15
-))
+console.log(signCheck(5,12,-15))
 
 console.log(signCheck(
     -6,
